@@ -7,6 +7,8 @@ rama que queremos actualizar, por ejemplo master: git checkout master
 master del repositorio original con: git rebase upstream/master 
 5-Finalmente si queremos actualizar nuestro fork remoto, lo haremos 
 ejecutando git push -f origin master
-B) no
-C) no
-D) no
+B) no directamente, porque el unico que tiene permiso de actualizar 
+la ultima version de las ramas, es el repositorio original
+C) no, porque el unico que tiene permiso de actualizar la ultima 
+version de las ramas es el repositorio original.
+D) Si el repositorio original actualiza los datos, los datos se pierden.
